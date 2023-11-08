@@ -67,7 +67,7 @@ class App extends Component {
 
 render() {
   const { currentStep, name, email, password, confirmPassword, selection, validationErrors,message } = this.state;
-  console.log(message)
+  //console.log(message)
   return (
     <div className="multi-step-form">
       <form className="form" onSubmit={this.handleSubmit}>
