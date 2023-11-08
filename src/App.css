@@ -1,16 +1,40 @@
-.App {
-  text-align: center;
+.multi-step-form{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
-.count{
-  font-size: 70px;
-  font-weight: 400;
+.form{
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-color: black;
+  background: linear-gradient(#e66465, #9198e5);
+  border-radius: 15px;
 }
 
-.addButton{
-  height: 50px;
-  width: 100px;
-  font-size: 30px;
-  background-color: orange;
+.step{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button{
+  background-color: rgb(19, 197, 241);
+  color: black;
+  padding: 2px;
+  height: 30px;
+  width: 80px;
+  margin: 20px;
   border-radius: 6px;
+ border-style: none;
+}
+.heading{
+  text-align: center;
 }
